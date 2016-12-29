@@ -14,13 +14,13 @@
         <form>
             <input type="radio" name="round" value="flop" checked>Flop<br>
             <input type="radio" name="round" value="turn">Turn<br>
-            Outs: <input type="number" value="0"><br>
-            Pot: $<input type="number" value="0"><br>
-            Bet: $<input type="number" value="0"><br>
-            <button>Reset</button>
-            <button>Calculate</button>
+            Outs: <input id="outs" type="number" value="0"><br>
+            Pot: $<input id="pot" type="number" value="0"><br>
+            Bet: $<input id="bet" type="number" value="0"><br>
+            <button type="button" id="reset">Reset</button>
+            <button type="button" id="calculate">Calculate</button>
         </form>
-        Result: <span></span>
+        Result: <span id="result"></span>
     </div>
 
     <footer>Footer</footer>
